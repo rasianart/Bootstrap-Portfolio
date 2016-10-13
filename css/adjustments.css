@@ -31,11 +31,11 @@
 }
 #aboutme:hover {
 	border: 1px solid white;
-	background-image: url("file:///Users/psegur/Bootstrap-Portfolio/img/Tribal2shortcrop.jpg");
+	background-image: url("/Users/psegur/Bootstrap-Portfolio/img/tribal2shortcrop.jpg");
 	opacity: 1;
 }
 #aboutme:visited {
-	background-image: url("file:///Users/psegur/Bootstrap-Portfolio/img/Tribal2shortcrop.jpg");
+	background-image: url("/Users/psegur/Bootstrap-Portfolio/img/tribal2shortcrop.jpg");
 }
 .about {
 	padding: 10px;
@@ -67,7 +67,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(file:///Users/psegur/Bootstrap-Portfolio/img/Tribal2shortdark.jpg) no-repeat center center scroll;
+    background: url(/Users/psegur/Bootstrap-Portfolio/img/tribal2shortdark.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
