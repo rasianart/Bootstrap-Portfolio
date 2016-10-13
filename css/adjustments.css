@@ -11,21 +11,21 @@
 	text-align: center;
 	font-family: 'Dosis';
 	color: white;
-	letter-spacing: 50px;
+	letter-spacing: 20px;
 	margin-top: 5px;
+	transition: all .25s ease-in;
+	-webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
 }
 #centerme {
 	text-align: center;
-	margin-right: 28.3%;
+	margin-right: 1.9%;
 }
 #aboutme {
-	/*text-align: center;*/
-	/*padding-top: 160px;*/
-	/*padding-right: 2%;*/
 	background-color: transparent;
 	width: 350px;
 	height: 500px;
-	margin-left: 36.8%;
 	margin-top: 81px;
 	opacity: 0;
 }
@@ -33,6 +33,9 @@
 	border: 1px solid white;
 	background-image: url("img/tribal2shortcrop.jpg");
 	opacity: 1;
+/*	-moz-box-shadow: 0 0 10px #000000;
+	-webkit-box-shadow: 0 0 10px #000000;
+	box-shadow: 0 0 10px #000000;*/
 }
 #aboutme:visited {
 	background-image: url("img/tribal2shortcrop.jpg");
@@ -50,7 +53,24 @@
 	background-color: black;
 	padding-top: 15px;
 }
-
+#initialize {
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding-top: 400px;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+#open {
+	color: white;
+	width: 50%;
+	margin-left: 25%
+}
+#initialize:hover {
+	opacity: 0;
+}
 .header {
 	background-color: black;
 	opacity: 0;
@@ -67,7 +87,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: url("img/tribal2shortdark.jpg") no-repeat center center scroll;
+    background: url("img/tribal2shortdark2.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -83,6 +103,36 @@
 .down {
 	font-size: 30px;
 }
+.services {
+	background-color: #616161;
+}
 body {
 	background-color: #000;
+	position: relative;
+}
+@media only screen and (max-width: 768px) {
+	#aboutme {
+		width: 225px;
+		height: 415px;
+		margin-top: 120px;
+	}
+	#aboutme:hover {
+    	background-position: center; 
+	}
+	#aboutme:visited {
+		/*background-attachment: fixed;*/
+    	background-position: center; 
+	}
+	#myname {
+		font-size: 35px;
+		letter-spacing: 25px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#aboutme {
+		width: 225px;
+		height: 415px;
+		margin-top: 120px;
+	}
 }
